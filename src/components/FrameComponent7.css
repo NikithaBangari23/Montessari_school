@@ -1,0 +1,68 @@
+.contact-us10,
+.home-contact10 {
+  width: 10.375rem;
+  position: relative;
+  display: inline-block;
+}
+.contact-us10 {
+  margin: 0;
+  width: 25.375rem;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.image-36-icon10 {
+  height: 2.588rem;
+  width: 2.588rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0.744rem;
+  left: 6.481rem;
+  object-fit: contain;
+}
+.contact-us-parent,
+.home-contact-parent8,
+.instance-parent15 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.contact-us-parent {
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+}
+.home-contact-parent8,
+.instance-parent15 {
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.home-contact-parent8 {
+  background-color: var(--color-seashell);
+  overflow: hidden;
+  padding: var(--padding-15xl) var(--padding-22xl) var(--padding-18xl);
+  gap: var(--gap-3xl);
+}
+.instance-parent15 {
+  padding: 0 0 var(--padding-4xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .contact-us10 {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact-us10 {
+    font-size: var(--font-size-10xl);
+  }
+}
